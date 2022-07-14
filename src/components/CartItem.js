@@ -13,7 +13,7 @@ function CartItem({item}) {
         <div className="cart-item">
             <i className={`${trashIconClassName} icon-trash`} onClick={() => removeFromCart(item.id)} 
                 ref={ref}></i>
-            <img src={item.url} className="cart-item-img img"></img>
+            <img src={item.url} className="cart-item-img img" alt="photos"></img>
             <p className="cart-item-price">$ 5.99</p>
         </div>
     )

@@ -18,6 +18,7 @@ export default function Checkout() {
         setTimeout(() => {
             emptyCart()
             setButtonText("Place Order")
+            alert("Success! We got your order. Thank you!")
         }, 3000)
     }
 
